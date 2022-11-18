@@ -1,0 +1,58 @@
+.container {
+  position: relative;
+  width: 100%;
+  display: flex;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 50%);
+  .search {
+    font-size: 20px;
+    height: 50px;
+    width: 40%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+  }
+  .ul-group {
+    width: 80%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    margin: 20px 0;
+
+  }
+  .list {
+    font-family: Ebrima fantasy;
+    font-size: 20px;
+    color: blueviolet;
+    margin: 10px;
+    list-style: none;
+    padding: 20px;
+    border: 3px dashed black;
+  }
+  .status {
+    color: black;
+    position: relative;
+    padding: 10px;
+  }
+  .status-badge {
+    color: black;
+    background-color: gainsboro;
+    position: relative;
+    border-radius: 20px;
+    padding: 10px;
+    top: 50%;
+    left: 90%;
+  }
+  .list-success {
+    background-color: #68ea00;
+  }
+  .list-warning {
+    background-color: #ffe400;
+  }
+  .list-danger {
+    background-color: #ff0000;
+  }
+}
